@@ -1,0 +1,8 @@
+spring:
+    config:
+        activate:
+            on-profile: local
+jwt:
+    access_exp: 3600000  # 한시간
+    refresh_exp: 604800000  # 일주일
+    secret: ""
